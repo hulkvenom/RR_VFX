@@ -9,7 +9,7 @@ public class ProjectileMoveScript : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Destroy(other.gameObject);
+            
 
             Destroy(this.gameObject);
         }

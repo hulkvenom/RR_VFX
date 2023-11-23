@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject magicAttackPrefab;
     public float magicMoveSpeed;
     private Animator player_Animator;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,9 @@ public class PlayerScript : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
+            
             UseMagic();
+            
         }
     }
 
@@ -30,7 +33,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     public void ShootMagic()
-    {
+    {        
         GameObject magicAttackClone = Instantiate(magicAttackPrefab, magicSpawn.transform.position, magicSpawn.transform.rotation);
         Rigidbody rbody = magicAttackClone.GetComponent<Rigidbody>();
         rbody.AddForce(magicAttackClone.transform.forward * magicMoveSpeed, ForceMode.Impulse);
