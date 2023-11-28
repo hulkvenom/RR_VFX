@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1.1764766, g: 1.0946542, b: 2.4661906, a: 1}
+  m_IndirectSpecularColor: {r: 1.1769763, g: 1.0951196, b: 2.4671214, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -129,22 +129,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 906433764}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.7517767
+      value: 2.013218
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.6289595
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.352972
+      value: -6.931616
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
@@ -154,17 +154,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
@@ -191,6 +191,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2346275881050335890, guid: ace58fc0463db854ca7b7636bb88f0e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d577f0616e3d1334abe20267491f25b8, type: 2}
+    - target: {fileID: 2346275881050335890, guid: ace58fc0463db854ca7b7636bb88f0e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71b66c39548f94746b6a00c66023b101, type: 2}
     - target: {fileID: 5866666021909216657, guid: ace58fc0463db854ca7b7636bb88f0e9,
         type: 3}
       propertyPath: m_Controller
@@ -502,6 +512,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5271508931804140266}
   m_LocalEulerAnglesHint: {x: 120, y: 180, z: 0}
+--- !u!1 &906433763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906433764}
+  m_Layer: 0
+  m_Name: Vampire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906433764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906433763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.764995, y: 0.6289595, z: 20.284588}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1662318110}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1141999240
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +679,12 @@ CapsuleCollider:
   m_Height: 2.06
   m_Direction: 1
   m_Center: {x: 0, y: 1.07, z: 0}
+--- !u!4 &1662318110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ace58fc0463db854ca7b7636bb88f0e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 68742668}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
@@ -3394,6 +3442,9 @@ MonoBehaviour:
   magicAttackPrefab: {fileID: 3499596863317984958, guid: 9a59a4c70d697d84295d0b1f96f107bf,
     type: 3}
   magicMoveSpeed: 40
+  magicChargePrefab: {fileID: 5860760081961032149, guid: 0e938beec36f52d40878b7f5ea2247e2,
+    type: 3}
+  magicChargeClone: {fileID: 0}
 --- !u!1 &8136485418362127642
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,4 +3781,4 @@ SceneRoots:
   - {fileID: 2013410475}
   - {fileID: 1141999244}
   - {fileID: 1386115487400283224}
-  - {fileID: 68742668}
+  - {fileID: 906433764}

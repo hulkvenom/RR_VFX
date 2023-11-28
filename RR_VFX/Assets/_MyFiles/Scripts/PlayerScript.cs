@@ -8,6 +8,8 @@ public class PlayerScript : MonoBehaviour
     public GameObject magicAttackPrefab;
     public float magicMoveSpeed;
     private Animator player_Animator;
+    public GameObject magicChargePrefab;
+    public GameObject magicChargeClone;
     
 
     // Start is called before the first frame update
@@ -25,6 +27,11 @@ public class PlayerScript : MonoBehaviour
             UseMagic();
             
         }
+
+        if (magicChargeClone != null)
+        {
+            magicChargeClone.transform.eulerAngles = Vector3.zero;
+        }
     }
 
     public void UseMagic()
@@ -37,6 +44,12 @@ public class PlayerScript : MonoBehaviour
         GameObject magicAttackClone = Instantiate(magicAttackPrefab, magicSpawn.transform.position, magicSpawn.transform.rotation);
         Rigidbody rbody = magicAttackClone.GetComponent<Rigidbody>();
         rbody.AddForce(magicAttackClone.transform.forward * magicMoveSpeed, ForceMode.Impulse);
+    }
+
+    public void ChargeMagic()
+    {
+        magicChargeClone = Instantiate(magicChargePrefab, magicSpawn.transform.position, magicSpawn.transform.rotation,magicSpawn.transform);
+        Rigidbody cbody = magicChargeClone.GetComponent<Rigidbody>();
     }
 
 }

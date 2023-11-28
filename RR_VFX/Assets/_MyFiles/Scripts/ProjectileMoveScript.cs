@@ -5,6 +5,8 @@ using UnityEngine;
 public class ProjectileMoveScript : MonoBehaviour
 {
 
+    int delay = 2;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
@@ -24,6 +26,8 @@ public class ProjectileMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Destroy(gameObject, delay);
     }
+
+   
 }
