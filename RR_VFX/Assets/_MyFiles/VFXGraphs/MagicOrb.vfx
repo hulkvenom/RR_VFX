@@ -24,22 +24,10 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614608}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614610}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614735}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614613}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614737}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614749}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614643}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614743}
@@ -66,31 +54,10 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614699}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614701}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614677}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614692}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614694}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614800}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614647}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614649}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614784}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614670}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614768}
@@ -111,18 +78,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614722}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614726}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614732}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614802}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614818}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614809}
       id: 0
       isStickyNote: 0
@@ -140,13 +95,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614821}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614844}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614823}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614849}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614838}
@@ -167,23 +116,14 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614840}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614852}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614859}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614879}
-      id: 0
-      isStickyNote: 0
   stickyNoteInfos: []
   categories: []
   uiBounds:
     serializedVersion: 2
     x: 413
-    y: 496
+    y: 495
     width: 5281
-    height: 2223
+    height: 2213
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7406,7 +7346,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
+      m_SerializableObject: 0.2
     m_Space: 2147483647
   m_Property:
     name: Count
@@ -7440,7 +7380,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
+      m_SerializableObject: 0.1
     m_Space: 2147483647
   m_Property:
     name: Delay

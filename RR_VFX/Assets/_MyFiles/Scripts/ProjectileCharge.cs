@@ -5,7 +5,7 @@ using UnityEngine.VFX;
 
 public class ProjectileCharge : MonoBehaviour
 {
-    float delay = 1.12f;
+    float delay = 0.85f;
     [SerializeField] VisualEffect effect;
     [SerializeField] float growSpeed;
 

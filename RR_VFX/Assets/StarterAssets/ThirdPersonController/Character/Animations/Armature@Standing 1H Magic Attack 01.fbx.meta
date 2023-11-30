@@ -65,7 +65,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.46337095
+      - time: 0.4086597
         functionName: ShootMagic
         data: 
         objectReferenceParameter: {fileID: 3499596863317984958, guid: 9a59a4c70d697d84295d0b1f96f107bf,
