@@ -189,7 +189,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
-    - _DissolveAmount: 0.33
+    - _DissolveAmount: 0
     - _DissolveScale: 40
     - _DissolveWidth: 0.02
     - _DoubleSidedEnable: 0
@@ -292,7 +292,7 @@ Material:
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
-    - _DissolveColor: {r: 0.2902918, g: 0.6426006, b: 2.639016, a: 0}
+    - _DissolveColor: {r: 2.639016, g: 0.1847311, b: 0.22563523, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
